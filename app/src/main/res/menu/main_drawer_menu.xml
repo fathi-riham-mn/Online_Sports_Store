@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_video"
+            android:icon="@drawable/baseline_video_library_24"
+            android:title="Sports item videos">
+
+        </item>
+        <item android:id="@+id/nav_orders"
+            android:icon="@drawable/baseline_local_grocery_store_24"
+            android:title="My Cart">
+
+        </item>
+        <item android:id="@+id/nav_status"
+            android:icon="@drawable/baseline_local_shipping_24"
+            android:title="Delivery Status">
+
+        </item>
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About us">
+
+        </item>
+        <item android:id="@+id/nav_location"
+            android:icon="@drawable/baseline_location_on_24"
+            android:title="Location">
+
+        </item>
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>
